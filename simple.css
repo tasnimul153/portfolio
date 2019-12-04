@@ -1,0 +1,368 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    height: 1200px;
+    font-family: 'Assistant', sans-serif;
+}
+
+a {text-decoration: none; color: white;}
+
+#content2, #content3, #content4 { display: none; }
+
+.container {
+    height: 1200px;
+    width: 1300px;
+    padding: 0px 40px 0px 30px;
+    margin: 0 auto 30px auto;
+    background: rgb(37, 37, 37);
+    padding-bottom: 10px;
+}
+
+.header {
+    height: 200px;
+    width: 100%;
+    color: white;
+    display: grid;
+    grid-template-columns: 87.5% 12.5%;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: 15% 70%;
+    margin-top: 30px;
+}
+
+.info {
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin: 0px 0px 0px 0px;
+}
+
+.info span {
+    color: rgb(255, 94, 0);
+}
+
+.propic {
+    height: 150px;
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 100px;
+    background: url("pictures/profilepicture.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.exbox {
+    height: 170px;
+    width: 150px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.mainBox {
+    height: 150px;
+    width: 150px;
+    background-image: url("pictures/bangladeshiFlag2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid white;
+    margin-bottom: -10px;
+}
+
+#justAline {
+    width: 100%;
+    border-bottom: 1px dotted white;
+    margin: 50px auto 0px auto;
+}
+
+.myNav {
+    height: 50px;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.navbar {
+    height: 50px;
+    width: 1000px;
+    padding-left: 20px;
+    margin: 0 auto;
+}
+
+.navbar ul li{
+    list-style: none;
+    float: left;
+    margin-right: 60px;
+}
+
+
+.navbar ul li a {
+    font-size: 30px;
+    padding: 5px 20px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.navbar ul li a:hover{
+    color: black;
+    background: rgb(247, 247, 247);
+}
+
+.active {
+    background: orangered;
+    box-shadow: 0px 5px 3px black;
+}
+
+.content {
+    height: 660px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+#content1 {
+    display: grid;
+    grid-template-columns: 42% 58%;
+}
+
+.mySpeech {
+    height: 650px;
+    width: auto;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+}
+
+.mySpeech p {
+    margin-top: 0;
+}
+
+.skillBox {
+    width: 400px;
+    height: auto;
+    padding: 40px 60px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px dashed white;
+}
+
+.line {
+    text-align: left;
+    width: auto;
+    border-top: 1px dashed white;
+    margin-top: 100px;
+    font-weight: 100;
+    display: grid;
+    grid-template-row: auto auto;
+}
+
+#lineS {
+    height: auto;
+    width: 400px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.line p:first-child {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#lineDiv p:first-child {
+    margin-top: 5px;
+}
+
+
+#lineDiv {
+    height: 230px;
+    width: 120px;
+}
+
+.langs {
+    font-size: 25px;
+    padding-bottom: 0;
+    margin-bottom: 15px;
+}
+
+.linebox {
+    height: auto;
+    width: auto;
+}
+
+.lineBox1 {
+    height: 20px;
+    width: 300px;
+    margin-top: 12px;
+    padding: 0;
+}
+
+.lineBox2 {
+    height: 20px;
+    width: 300px;
+    margin-top: 27px;
+    padding: 0;
+}
+
+.lowerB{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+    color: black;
+    font-weight: 900;
+    font-size: 15px;
+    background: white;
+    text-shadow: 0px 0px 0px black;
+    transition: 1s;
+    animation-delay: 4s;
+    animation-duration: 4s;
+    overflow: hidden;
+    text-align: right;
+    padding-right: 10px;
+    animation-timing-function: ease-in-out;
+}
+
+#lower0 { animation-name: example0; width: 89%;}
+@keyframes example0 {0% {width: 0%} 100% {width: 89%}}
+#lower01 { animation-name: example01; width: 60%;}
+@keyframes example01 {0% {width: 0%} 100% {width: 60%}}
+#lower02 { animation-name: example02; width: 20%;}
+@keyframes example02 {0% {width: 0%} 100% {width: 20%}}
+#lower03 { animation-name: example03; width: 7%;}
+@keyframes example03 {0% {width: 0%} 100% {width: 7%}}
+#lower04 { animation-name: example04; width: 7%;}
+@keyframes example04 {0% {width: 0%} 100% {width: 7%}}
+
+.skill {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 30% auto;
+}
+
+.upper {
+    width: 100%;
+    height: 23px; 
+    border: 1px solid orangered;
+}
+
+.lower{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+    background: orangered;
+    transition: 1s;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    overflow: hidden;
+    animation-timing-function: ease-in-out;
+}
+
+#lower1 { animation-name: example1; width: 75%;}
+@keyframes example1 {0% {width: 0%} 100% {width: 75%}}
+
+#lower2 { animation-name: example2; width: 65%;}
+@keyframes example2 {0% {width: 0%} 100% {width: 65%}}
+
+#lower3 { animation-name: example3; width: 8%;}
+@keyframes example3 {0% {width: 0%} 100% {width: 8%}}
+
+#lower4 { animation-name: example4; width: 6%;}
+@keyframes example4 {0% {width: 0%} 100% {width: 6%}}
+
+#lower5 { animation-name: example5; width: 13%;}
+@keyframes example5 {0% {width: 0%} 100% {width: 13%}}
+
+#lower6 { animation-name: example6; width: 2%;}
+@keyframes example6 {0% {width: 0%} 100% {width: 2%}}
+
+#lower7 {width: 0%;} #lower8 {width: 0%;} #lower9 {width: 0%;}
+
+/*Divistion 3 and Divistion 4 (Academic History and Contact me)*/
+
+#contact_id {
+    height: 400px;
+    width: 500px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: 3px;
+    padding: 100px 0px 0px 0px;
+    border: 1px dashed white;
+}
+
+/*Division 2 (Projects)*/
+
+#project_container {
+    height: 600px;
+    width: 1000px;
+    margin: 10px auto;
+    display: grid;
+    border-radius: 5px;
+    grid-template-columns: 50% 50%;
+}
+
+.project_type {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: bold;
+    z-index: 5;
+}
+
+.project_type:hover {
+    font-size: 55px;
+    color: orangered;
+    background: rgba(0,0,0,0.8);
+}
+
+#prid1 {
+    height: 602px;
+    width: 500px;
+    top: 375px;
+    left: 180px;
+    line-height: 500px;
+}
+
+/*games block*/
+#Games {
+    background: url("pictures/game2.jpg");
+    background-repeat: none;
+    background-position: center;
+}
+
+#other_projects {
+    display: grid;
+    grid-template-rows: auto auto auto; 
+}
+
+#prid2, #prid3, #prid4 {
+    height: 199px;
+    width: 500px;
+    line-height: 200px;
+}
+
+#prid2 {
+    background: url("pictures/software.jpg");
+    background-repeat: none;
+    background-position: center;
+}
+
+#prid3 {
+    background: url("pictures/images.jpg");
+    background-repeat: none;
+    background-position: center;
+}
+
+#prid4 {
+    background: url("pictures/web.jpg");
+    background-repeat: none;
+    background-position: center;
+}

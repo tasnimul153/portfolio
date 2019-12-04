@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Assistant', sans-serif;
+}
+
+a {text-decoration: none;}
+
+.container {
+    height: 600px;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 30px 0px 25px;
+}
+
+.backButton {
+    height: 20px;
+    width: 80px;
+    color: rgb(2, 133, 255);
+    border-radius: 5px;
+    border: 1px solid rgb(2, 133, 255);
+    text-align: center;
+    padding: 5px;
+    transition: ease;
+    cursor: pointer;
+}
+
+.backButton:hover {
+    background-color: rgb(2, 133, 255);;
+    color: white;
+}
+
+.games {
+    margin-top: 30px;
+    height: 600px;
+    width: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 5px;
+}
+
+.normal {
+    display: grid;
+    grid-template-rows: 50% 49.3%;
+    grid-row-gap: 5px;
+}
+
+.mathGame {
+    border: 1px solid black;
+}
+
+.drawing {
+    border: 1px solid black;
+}
+
+.quizz {
+    background: url("../pictures/quiz.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.quizz a{
+    color: white;
+    font-size: 50px;
+}
